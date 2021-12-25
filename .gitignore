@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharm IDE
 .idea
+
+# MacOS folder custom attributes
+.DS_Store

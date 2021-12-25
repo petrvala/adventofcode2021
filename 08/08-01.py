@@ -5,7 +5,7 @@ from time import time
 
 def read_input() -> list[tuple[list[str], list[str]]]:
     input_values = list()
-    with open("./input_08.txt") as fn:
+    with open("input_08.txt") as fn:
         input_lines = fn.read().splitlines()
     for input_line in input_lines:
         one_input = input_line.split(" | ")
